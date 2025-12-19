@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "MovieRental.Controllers.MovieController",
+    "Method": "Get",
+    "RelativePath": "Movie",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieRental.Controllers.MovieController",
+    "Method": "Post",
+    "RelativePath": "Movie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movie",
+        "Type": "MovieRental.Movie.Movie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieRental.Controllers.RentalController",
+    "Method": "Post",
+    "RelativePath": "Rental",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rental",
+        "Type": "MovieRental.Rental.Rental",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
