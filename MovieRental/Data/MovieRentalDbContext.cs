@@ -23,11 +23,10 @@ namespace MovieRental.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Make CustomerName an alternate (principal) key so it can be referenced by a FK.
+            
             modelBuilder.Entity<Customer.Customer.Customer>()
                 .HasAlternateKey(c => c.CustomerName);
 
-            // Configure Rental.CustomerName as FK that references Customer.CustomerName (principal key)
             modelBuilder.Entity<Rental.Rental>()
                 .HasOne(r => r.Customer)
                 .WithMany()
