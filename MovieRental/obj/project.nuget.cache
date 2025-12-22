@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qk9ueuOJCZo=",
+  "dgSpecHash": "MM5f3bazfUM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\André Calçada\\Desktop\\André\\proposta de trabalho natexis\\MovieRental-main\\MovieRental\\MovieRental.csproj",
+  "projectFilePath": "C:\\Users\\André Calçada\\Desktop\\André\\proposta de trabalho natexis\\projeto_natixis\\MovieRental\\MovieRental.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\André Calçada\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.4\\microsoft.data.sqlite.core.9.0.4.nupkg.sha512",
     "C:\\Users\\André Calçada\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
